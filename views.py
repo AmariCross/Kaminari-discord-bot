@@ -38,7 +38,7 @@ class HelpDropDown(discord.ui.Select):
         options = [discord.SelectOption(label=cog,
                                         description=f"/help {str(cog.lower())}",
                                         value=f"{cog.title()}") for cog in cogs]
-        super().__init__(placeholder='Chose a category', min_values=1, max_values=1, options=options)
+        super().__init__(placeholder='Choose a category', min_values=1, max_values=1, options=options)
 
     async def callback(self, interaction: discord.Interaction):
         if interaction.user.id != self.author.id:
