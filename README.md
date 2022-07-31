@@ -1,2 +1,2 @@
 # Kaminari-discord-bot
-thats nice
+thats nice, never gonna update!
